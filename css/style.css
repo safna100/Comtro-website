@@ -314,7 +314,7 @@ section#how\ its\ work {
     padding: 40px;
     margin-top: 71px;
 }
- .img-cnt p{
+ /* .img-cnt p{
     background: white;
     border-radius: 12px;
     padding: 36px 15px;
@@ -327,4 +327,24 @@ section#how\ its\ work {
     text-align: left;
 }.img-cnt h5{
     margin: 25px 0;
+} */
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login_cnt {
+    background: white;
+    border-radius: 10px;
+    padding: 18px 34px;
+}
+
+.login hr {
+    border-bottom: 1px dotted #5c5a5a;
+    width: 300px;   
+}
+.login_cnt
+h5 {
+    margin: 10px;
+     color: #114051;
 }
