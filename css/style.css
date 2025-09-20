@@ -33,17 +33,19 @@ nav {
     display: flex;
     align-items: center;
 }
-.contact {
-    background: #005777;
-    padding: 4px 8px;
+.contact h3{
+    border: solid 1.5px #005777;
     border-radius: 20px;
-    height: 45px;
-    width: 23vh;
-    display: flex;
-    align-items: center;
+    width: fit-content;
 }
 .contact a{
     color: #E0ECF1;
+}
+.contact {
+    background: #005777;
+    padding: 3px 5px;
+    border-radius: 25px;
+    text-align: center;
 }
 nav ul{
     margin: 0;
@@ -347,4 +349,171 @@ section#how\ its\ work {
 h5 {
     margin: 10px;
      color: #114051;
+     text-align: left;
+}
+.login_cnt p{
+    text-align: left;
+}
+/* benefits */
+.benefits-cnt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 19px;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+.smart_choice {
+    text-align: center;
+    margin-top: 50px;
+}
+img.school {
+    width: 50%;
+}
+span.one {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.benefits-feature {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
+.smart_choice span{
+    border: solid 1.5px #187191;
+    padding: 9px 30px;
+    border-radius: 12px;
+}
+.smart_choice h2 {
+    margin-top: 30px;
+}
+.on_time {
+    margin-left: 37px;
+}
+
+.benefits-feature .numbers .one{
+        height: 50px;
+    width: 50px;
+    background: #3589A7;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+.benefits-feature .numbers{
+position: relative;
+}
+.benefits-feature .numbers::after{
+    content: '';
+    height: 50px;
+    width: 1px;
+    background: #c1c1c1;
+    position: absolute;
+    top:50px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.benefits-cnt .benefits-feature:last-child .numbers::after{
+display: none;
+}
+
+.benefit_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.benefit_img img{
+width: 100%;
+}
+.benefit{
+    display: flex;
+    margin-top: 60px;
+}
+.smart_choice p{
+    margin-top: 25px;
+}
+/* contact */
+.contact-us {
+    background: #F3F3F3;
+    margin-top: 50px;
+    padding: 50px;
+}
+    .contact-us h3 {
+    text-align: center;
+    color: #0C536C;
+}
+.form_row input{
+    border: solid 1px #005777;
+    border-radius: 6px;
+}
+.form_row_message textarea{
+    border: solid 1px #005777;
+    border-radius: 6px;
+}
+.form_row input {
+    border: solid 1px #005777;
+    border-radius: 6px;
+    background: none;
+    width: 292px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+.form_row_message textarea {
+    border: solid 1px #005777;
+    border-radius: 6px;
+    width:296px ;
+    background: none;
+}
+.form_row h5{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.form_row_message h5{
+    font-weight: 400;
+}
+button.cta-btn {
+    background: linear-gradient(
+     195deg, #005777, #3b97bd80);
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 7px;
+    width: 296px;
+    margin-top: 20px;
+}
+.icon_details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.icon_details i{
+    font-size: 20px;
+    color: #005777;
+}
+.contact-cnt {
+    margin-top: 35px;
+}
+.social_icon {
+    color: #005777;
+    background: white;
+    padding: 11px 13px;
+    border-radius: 33px;
+    text-align: center;
+}
+.socialicon {
+    display: flex;
+    gap: 18px;
+    margin-top: 15px;
+}
+.facebook {
+    margin-top: 25px;
+}
+ .facebook span{
+    font-weight: 500;
+}
+.call span{
+    font-weight: 200;
 }
