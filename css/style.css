@@ -33,6 +33,10 @@ nav {
     display: flex;
     align-items: center;
 }
+ nav ul a:hover{
+    color: #000000;
+
+}
 .contact h3{
     border: solid 1.5px #005777;
     border-radius: 20px;
@@ -47,6 +51,13 @@ nav {
     border-radius: 25px;
     text-align: center;
 }
+.contact:hover{
+    background-color: #000000;
+}
+.contact a:hover{
+    color: white;
+
+}
 nav ul{
     margin: 0;
     padding: 0;
@@ -59,21 +70,31 @@ nav ul{
 .getstarted {
     display: flex;
     gap: 20px;
+    margin-top: 30px;
 }
 a.ct-bt {
-    background: #065774;
-    padding: 5px 10px;
+    border:solid 1px #065774;
+    padding: 9px 23px;
     border-radius: 5px;
-    color:white;
+    color:#005777;
     text-decoration: none;
+}
+ a.ct-bt:hover{
+    background-color:#065774;;
+    color:white;
+    
 }
 a.btn-2{
     border: solid 1px #065774 ;
-    padding: 5px 20px;
+    padding: 9px 32px;
     border-radius: 5px;
     color: #005777;
     text-decoration: none;
 
+}
+a.btn-2:hover{
+    background-color:#065774;;
+    color:white;  
 }
 p.hero-condent {
     margin: 25px 0px;
@@ -82,11 +103,24 @@ h1 {
     line-height: 1.5;
     font-weight: bold;
 }
-.hero-condent{
+h1{
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.hero-condent h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+   
+    .hero-condent{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: auto;
+}
+}
+.hero-condent p{
+    margin-bottom: 20px;
 }
 .hero-condent h1{
     font-size: 55px;
@@ -137,6 +171,10 @@ h1 {
     color: white;
     box-shadow: 2px 1px 19px 2px #7F9FAA;
     margin: 20px;
+}
+.enquire button:hover{
+    background-color: #d4ecf5;
+    color: #000;
 }
 #WhyChoose {
     background: #E4EDF0;
@@ -200,6 +238,17 @@ span.quick {
     border-radius: 20px;
     margin-top: 25px;
 }
+.bells:hover{
+    background-color: #005777;
+    transition: 0.5s;
+}
+.bells h5:hover{
+    color: white;
+    transition: 0.5s;
+}
+.bells p:hover{
+    color: white;
+}
 .automated i{
     background-color: #005777;
     color: white;
@@ -207,6 +256,11 @@ span.quick {
     border-radius: 90px;
     display: flex;
     justify-content: center;
+}
+.automated i:hover{
+    color: #005777;
+    background-color: white;
+    transition: 0.5s;
 }
 .automated {
     display: flex;
@@ -283,14 +337,22 @@ span.quick {
 .dot {
     height: 17px;
     width: 17px;
-    background: #005777;
+    background: #747575;
     border-radius: 44px;
+}
+.dot:hover{
+    background-color: white;
+    transition: 0.1s;
 }
 .whychoose-us_cnt {
     background: #F3F3F3;
     width:fit-content;
     padding: 17px;
     margin-top: 74px;
+}
+.whychoose-us_cnt:hover{
+    background-color: #065774;
+    color: white;
 }
 .circle {
     display: flex;
@@ -340,6 +402,14 @@ section#how\ its\ work {
     border-radius: 10px;
     padding: 18px 34px;
 }
+.login_cnt:hover{
+    background: #d8a71f;
+    transition: 0.1s;
+}
+.login_cnt p:hover{
+    color: white;
+}
+
 
 .login hr {
     border-bottom: 1px dotted #5c5a5a;
@@ -503,6 +573,10 @@ button.cta-btn {
     border-radius: 33px;
     text-align: center;
 }
+.social_icon:hover{
+    background-color: #005777;
+    color: white;
+}
 .socialicon {
     display: flex;
     gap: 18px;
@@ -567,4 +641,64 @@ li{
     color: white;
     margin-left: 27px;
     margin-bottom: 20px;
+}
+/* .subscribe-box h6{
+    color: white;
+    font-size: 24px;
+} */
+.subscribe-box h6 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+}
+.input-box input{
+ border: none;
+ outline: none;
+ font-size: 16px;
+ width: 100%;
+ background: none;
+}
+.input-box i{
+    font-size: 18px;
+    color: gray;
+    margin-right: 10px;
+}
+.footer hr{
+    color: white;
+    margin-top: 40px;
+}
+.footer_socialicon .social_icon {
+    color: #005777;
+    background: white;
+    padding: 2px 4px;
+    border-radius: 33px;
+    text-align: center;
+    width: fit-content;
+}
+.footer_socialicon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+}
+.arrow i {
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

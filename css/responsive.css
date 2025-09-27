@@ -1,0 +1,134 @@
+
+@media screen and (max-width:1299px) {
+    .about img {
+    position: absolute;
+    width: 72%;
+    top: 50px;
+}
+    
+    
+}
+@media screen and (max-width:991px) {
+    .about img {
+    position: absolute;
+    width: 97%;
+    top: 100px;
+}
+.about {
+    margin-top: 97px;
+}
+.bells h5 {
+    font-size: large;
+}
+.automated {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.phone img {
+    /* width: 100%; */
+    background: radial-gradient(circle at center,#83E6F8 -23%, transparent 65%);
+    padding: 30px;
+    border-radius: 80px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 48px;
+}
+.login img{
+    width: 35%;
+}
+.login{
+    margin-bottom: 40px;
+}
+.header-cnt ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 8px;
+   width: 185px;
+    margin: auto;
+}
+.benefits-feature .numbers::after {
+    content: '';
+    height: 97px;
+    width: 1px;
+    background: #c1c1c1;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.benefit_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    scale: 1.5;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.facebook {
+    margin-top: 37px;
+    margin-left: 10px;
+}
+.get {
+    margin-left: 10px;
+}
+.hero-condent h1 {
+    font-size: 55px;
+    margin-top: 90px;
+}
+    
+}
+@media screen and (max-width:767px) {
+    #WhyChoose {
+    background: #E4EDF0;
+    margin: 70px 0;
+    /* width: 180vh;
+    height: 85vh; */
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+img.phone {
+    width: 100%;
+    margin-top: 25px;
+}
+.navbar{
+    display: none;
+}  
+#WhyChoose {
+    background: #E4EDF0;
+    margin: 70px 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+}
+@media screen and (max-width:575px) {
+    
+}
+@media screen and (max-width:425px) {
+    
+}
+@media screen and (max-width:365px) {
+
+}
+    
+
+
+    
