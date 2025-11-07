@@ -279,7 +279,11 @@ section#About {
 body{
     /* overflow-x: hidden; */
 } 
-    
+  @media screen and (max-width:365px){
+    .login_cnt p{
+    font-size: 12px;
+}
+  }  
 
 
     
