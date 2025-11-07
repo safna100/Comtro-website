@@ -233,9 +233,19 @@ button{
     
 }
 @media screen and (max-width:425px) {
+    .login_cnt {
+    background: white;
+    border-radius: 10px;
+    padding: 0px 3px;
+}
     
 }
 @media screen and (max-width:365px) {
+    .login_cnt {
+    background: white;
+    border-radius: 10px;
+    padding: 0px 3px;
+}
     /* .hero-condent {
     width: 100%;
     margin-left: 31px;
