@@ -6,6 +6,9 @@
 p{
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 .header-cnt ul {
     display: flex;
     list-style: none;
@@ -276,14 +279,12 @@ span.quick {
 .bells:hover{
     background-color: #005777;
     transition: 0.5s;
-}
-.bells h5:hover{
     color: white;
-    transition: 0.5s;
+    padding-bottom: 10px;
 }
-.bells p:hover{
-    color: white;
-}
+
+
+
 .automated i{
     background-color: #005777;
     color: white;
@@ -438,8 +439,10 @@ section#how\ its\ work {
     padding: 18px 34px;
 }
 .login_cnt:hover{
-    background: #d8a71f;
+    background: #03507c;
     transition: 0.1s;
+    padding-bottom:  20px;
+    color: white;
 }
 .login_cnt p:hover{
     color: white;
